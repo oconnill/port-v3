@@ -19,5 +19,12 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "theme": {
+    "colors": {
+      "dark-blue": "#07165C",
+      "light-blue": "#60BBF4",
+      "dark-purple": "#1E1E1E",
+    },
+  }
 }
