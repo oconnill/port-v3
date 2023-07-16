@@ -1,0 +1,36 @@
+.do_logo, .do_logo_d {
+    flex-shrink: 0;
+    height: 20px;
+    animation: color_change 5s infinite alternate;
+    margin-left: 4px;
+    width: 14px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.do_logo_o {
+    flex-shrink: 0;
+    width: 20px;
+    border-radius: 50%;
+    height: 20px;
+    animation: color_change 5s infinite alternate;
+    margin-left: 4px;
+}
+
+@keyframes color_change {
+    0% {
+        background-color: #ff0000;
+    }
+    25% {
+        background-color: #ffff00;
+    }
+    50% {
+        background-color: #00ff00;
+    }
+    75% {
+        background-color: #00ffff;
+    }
+    100% {
+        background-color: #0000ff;
+    }
+}
