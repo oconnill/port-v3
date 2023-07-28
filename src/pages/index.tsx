@@ -26,15 +26,15 @@ export default function Home() {
           href="/favicon-16x16.png"
         />
       </Head>
-      <main className={"p-10"}>
-        <div className={'p-10'}>
-          <div className={`flex ${styles.do_logo}`}>
+      <main className={styles.site_container}>
+        <div>
+          <div className={styles.do_logo}>
             <div className={styles.do_logo_d}></div>
             <div className={styles.do_logo_o}></div>
           </div>
         </div>
-        <div className={"mb-0.5 text-sky-500"}>Daniel O'Connell</div>
-        <div className={"pt-2"}>
+        <h1 className={styles.main_header}>Daniel O'Connell</h1>
+        <div className={styles.body_copy}>
           I'm a front-end software engineer (former graphic designer) based in
           Boise, ID. specialize in building intuitive and accessible digital
           experiences(React, NextJS, Typescript).
@@ -45,6 +45,7 @@ export default function Home() {
         >
           LinkedIn
         </a>
+        <span className={styles.color_blur} />
         {/*<SelectedWork />*/}
       </main>
     </>
