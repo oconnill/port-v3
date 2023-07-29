@@ -4,7 +4,6 @@
     content: "";
     filter: blur(40px);
     height: 200px;
-    position: absolute;
     width: 30%;
     margin: auto;
 }
