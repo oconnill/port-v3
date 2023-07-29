@@ -1,0 +1,10 @@
+.color_blur {
+    position: absolute;
+    border-radius: 50%;
+    content: "";
+    filter: blur(40px);
+    height: 200px;
+    position: absolute;
+    width: 30%;
+    margin: auto;
+}

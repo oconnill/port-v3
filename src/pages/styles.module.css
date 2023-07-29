@@ -1,26 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
 main.site_container {
     background: white;
     padding: 45px;
 }
 
-.color_blur {
-    background: var(--orange);
-    border-radius: 50%;
-    bottom: -50px;
-    content: "";
-    filter: blur(40px);
-    height: 200px;
-    position: absolute;
-    left: 30%;
-    width: 30%;
-    right: 0;
-    margin: auto;
-
-}
-
 h1.main_header {
-    font-size: 1.125rem;
+    font-size: 7rem;
     margin: 0;
+    font-family: 'DM Serif Display', serif;
 }
 
 .body_copy {

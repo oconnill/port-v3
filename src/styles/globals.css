@@ -2,12 +2,13 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+
 :root {
   --dark-orange: #f23908;
   --orange: #ff7300;
   --yellow: #ffcc01;
-  --royaly-blue: #1033ee;
-    --dark-blue: #0325a5;
+  --royal-blue: #1033ee;
+  --dark-blue: #0325a5;
 }
 
 

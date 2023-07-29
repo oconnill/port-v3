@@ -1,5 +1,9 @@
 import Head from "next/head";
 import styles from "./styles.module.css";
+import dynamic from 'next/dynamic'
+
+const ColorBlur = dynamic(() => import("@/components/ColorBlur"), { ssr: false })
+
 export default function Home() {
   return (
     <>
@@ -27,6 +31,7 @@ export default function Home() {
         />
       </Head>
       <main className={styles.site_container}>
+        <ColorBlur />
         <div>
           <div className={styles.do_logo}>
             <div className={styles.do_logo_d}></div>
@@ -45,7 +50,6 @@ export default function Home() {
         >
           LinkedIn
         </a>
-        <span className={styles.color_blur} />
         {/*<SelectedWork />*/}
       </main>
     </>
