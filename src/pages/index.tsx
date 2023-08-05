@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "./styles.module.css";
 import dynamic from 'next/dynamic'
-// const ColorBlur = dynamic(() => import("@/components/ColorBlur"), { ssr: false })
+const ColorBlur = dynamic(() => import("@/components/ColorBlur"), { ssr: false })
 
 export default function Home() {
   return (
@@ -30,7 +30,7 @@ export default function Home() {
         />
       </Head>
       <main className={styles.site_container}>
-        {/*<ColorBlur />*/}
+        <ColorBlur />
         <div>
           <div className={styles.do_logo}>
             <div className={styles.do_logo_d}></div>
