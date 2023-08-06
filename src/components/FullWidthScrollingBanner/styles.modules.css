@@ -1,0 +1,12 @@
+.scroll_banner_wrapper {
+    width: 100%;
+    height: 175rem;
+    animation-duration: 150s;
+    line-height: .8;
+}
+
+.banner_module {
+    display: inline;
+    font-size: 2rem;
+    font-weight: bold;
+}
